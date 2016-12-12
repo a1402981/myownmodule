@@ -1,0 +1,313 @@
+==> /home/xubuntu/.bash_history <==
+setxkbmap fi
+sudo apt-get update 
+sudo apt-get -y install puppet
+cd /etc/puppet/
+ls
+cd modules/
+cd
+cd /usr/share/xfce4
+ls
+cd backdrops/
+ls
+less xubuntu-xenial.png 
+cd
+cd /etc/puppet/
+sudo mkdir -p manifests/ modules/changewallpaper/manifests/
+sudoedit manifests/site.pp
+sudoedit modules/changewallpaper/manifests/init.pp
+rm -r /etc/puppet/modules/changewallpaper/
+ls
+cd modules/
+cd changewallpaper/
+rm -r
+cd ..
+rm -r changewallpaper/
+ls
+sudo rm -r changewallpaper/
+ls
+cd ..
+ls
+cd modules/
+sudoedit /changemywallpaper/manifests/init.pp
+mkdir changemywallpaper
+sudo mkdir changemywallpaper
+ls
+cd changemywallpaper/
+sudo mkdir manifests
+sudoedit init.pp
+sudo puppet apply -e 'class {"changemywallpaper":}'
+sudoedit init.pp 
+sudo puppet apply -e 'class {"changemywallpaper":}'
+sudoedit init.pp 
+cd
+puppet master --configprint modulepath
+cd /etc/puppet/modules/
+ls
+cd changemywallpaper/
+ls
+cd manifests/
+ls
+cd ..
+sudo rm -r init.pp 
+ls
+sudo mkdir templates
+sudo mkdir files
+ls
+cd
+cd Downloads/
+ls
+sudo mv spacewallpaper.jpg /etc/puppet/modules/changemywallpaper/files/
+cd /etc/puppet/modules/
+ls
+sudo rm -r changemywallpaper/
+ls
+sudo mkdir sampanmoduli
+ls
+cd sampanmoduli/
+sudo mkdir manifests
+sudo mkdir templates
+sudo mkdir files
+cd
+cd Downloads/
+ls
+sudo mv spacewallpaper.jpg /etc/puppet/modules/sampanmoduli/files/
+sudoedit /etc/puppet/modules/sampanmoduli/manifests/init.pp
+cd /etc/puppet/manifests/
+sudoedit site.pp
+cd ..
+cd modules/sampanmoduli/templates/
+sudoedit xfce4-desktop.xml
+ls
+cd
+cd .config//xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+sudoedit .config//xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+less .config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
+cd modules/sampanmoduli/templates/
+cd /etc/puppet/modules/sampanmoduli/templates/
+ls
+sudoedit xfce4-desktop.xml
+cd
+sudo apt-get -y install tree
+tree /etc/puppet/modules/sampanmoduli/
+sudo puppet apply -v -d -e 'class {sampanmoduli:}'
+cd /etc/puppet/modules/sampanmoduli/manifests/
+sudoedit init.pp 
+sudo puppet apply -v -d -e 'class {sampanmoduli:}'
+sudoedit init.pp 
+setxkbmap fi
+sudoedit /etc/puppet/modules/sampanmoduli/manifests/init.pp 
+sudo puppet apply -v -d -e 'class {sampanmoduli:}'
+
+==> /var/log/auth.log <==
+Dec 12 18:53:12 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 18:53:29 xubuntu lightdm: pam_unix(lightdm-autologin:session): session closed for user xubuntu
+Dec 12 18:53:29 xubuntu polkitd(authority=local): Unregistered Authentication Agent for unix-session:c1 (system bus name :1.30, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Dec 12 18:53:29 xubuntu lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Dec 12 18:53:29 xubuntu lightdm: PAM adding faulty module: pam_kwallet.so
+Dec 12 18:53:29 xubuntu lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Dec 12 18:53:29 xubuntu lightdm: PAM adding faulty module: pam_kwallet5.so
+Dec 12 18:53:29 xubuntu lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Dec 12 18:53:29 xubuntu systemd-logind[3997]: New session c2 of user lightdm.
+Dec 12 18:53:29 xubuntu systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Dec 12 18:53:30 xubuntu lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Dec 12 18:53:30 xubuntu lightdm: PAM adding faulty module: pam_kwallet.so
+Dec 12 18:53:30 xubuntu lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Dec 12 18:53:30 xubuntu lightdm: PAM adding faulty module: pam_kwallet5.so
+Dec 12 18:53:39 xubuntu lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Dec 12 18:53:39 xubuntu lightdm: PAM adding faulty module: pam_kwallet.so
+Dec 12 18:53:39 xubuntu lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Dec 12 18:53:39 xubuntu lightdm: PAM adding faulty module: pam_kwallet5.so
+Dec 12 18:53:39 xubuntu lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "xubuntu"
+Dec 12 18:53:40 xubuntu lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Dec 12 18:53:40 xubuntu lightdm: pam_unix(lightdm:session): session opened for user xubuntu by (uid=0)
+Dec 12 18:53:40 xubuntu systemd-logind[3997]: New session c3 of user xubuntu.
+Dec 12 18:53:42 xubuntu gnome-keyring-daemon[8630]: The SSH agent was already initialized
+Dec 12 18:53:42 xubuntu gnome-keyring-daemon[8630]: The Secret Service was already initialized
+Dec 12 18:53:42 xubuntu gnome-keyring-daemon[8630]: The PKCS#11 component was already initialized
+Dec 12 18:53:42 xubuntu polkitd(authority=local): Registered Authentication Agent for unix-session:c3 (system bus name :1.88 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Dec 12 18:53:58 xubuntu sudo:  xubuntu : TTY=pts/7 ; PWD=/home/xubuntu ; USER=root ; COMMAND=/usr/bin/puppet apply -v -d -e class {sampanmoduli:}
+Dec 12 18:53:58 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec 12 18:53:59 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 18:54:07 xubuntu dbus[3950]: [system] Failed to activate service 'org.bluez': timed out
+Dec 12 18:54:32 xubuntu dbus[3950]: [system] Failed to activate service 'org.bluez': timed out
+Dec 12 18:55:01 xubuntu sudo:  xubuntu : TTY=pts/7 ; PWD=/home/xubuntu ; USER=root ; COMMAND=sudoedit init.pp
+Dec 12 18:55:29 xubuntu systemd-logind[3997]: Removed session c2.
+Dec 12 18:55:29 xubuntu systemd: pam_unix(systemd-user:session): session closed for user lightdm
+Dec 12 18:55:33 xubuntu sudo:  xubuntu : TTY=pts/7 ; PWD=/home/xubuntu ; USER=root ; COMMAND=sudoedit /etc/puppet/modules/sampanmoduli/manifests/init.pp
+Dec 12 18:55:33 xubuntu sudoedit: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec 12 18:56:40 xubuntu sudoedit: pam_unix(sudo:session): session closed for user root
+Dec 12 18:56:54 xubuntu sudo:  xubuntu : TTY=pts/7 ; PWD=/home/xubuntu ; USER=root ; COMMAND=/usr/bin/puppet apply -v -d -e class {sampanmoduli:}
+Dec 12 18:56:54 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec 12 18:56:55 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 18:57:09 xubuntu lightdm: pam_unix(lightdm:session): session closed for user xubuntu
+Dec 12 18:57:09 xubuntu polkitd(authority=local): Unregistered Authentication Agent for unix-session:c3 (system bus name :1.88, object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Dec 12 18:57:10 xubuntu lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Dec 12 18:57:10 xubuntu lightdm: PAM adding faulty module: pam_kwallet.so
+Dec 12 18:57:10 xubuntu lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Dec 12 18:57:10 xubuntu lightdm: PAM adding faulty module: pam_kwallet5.so
+Dec 12 18:57:10 xubuntu lightdm: pam_unix(lightdm-greeter:session): session opened for user lightdm by (uid=0)
+Dec 12 18:57:10 xubuntu systemd-logind[3997]: New session c4 of user lightdm.
+Dec 12 18:57:10 xubuntu systemd: pam_unix(systemd-user:session): session opened for user lightdm by (uid=0)
+Dec 12 18:57:10 xubuntu lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Dec 12 18:57:10 xubuntu lightdm: PAM adding faulty module: pam_kwallet.so
+Dec 12 18:57:10 xubuntu lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Dec 12 18:57:10 xubuntu lightdm: PAM adding faulty module: pam_kwallet5.so
+Dec 12 18:57:14 xubuntu lightdm: PAM unable to dlopen(pam_kwallet.so): /lib/security/pam_kwallet.so: cannot open shared object file: No such file or directory
+Dec 12 18:57:14 xubuntu lightdm: PAM adding faulty module: pam_kwallet.so
+Dec 12 18:57:14 xubuntu lightdm: PAM unable to dlopen(pam_kwallet5.so): /lib/security/pam_kwallet5.so: cannot open shared object file: No such file or directory
+Dec 12 18:57:14 xubuntu lightdm: PAM adding faulty module: pam_kwallet5.so
+Dec 12 18:57:14 xubuntu lightdm: pam_succeed_if(lightdm:auth): requirement "user ingroup nopasswdlogin" not met by user "xubuntu"
+Dec 12 18:57:14 xubuntu lightdm: pam_unix(lightdm-greeter:session): session closed for user lightdm
+Dec 12 18:57:14 xubuntu lightdm: pam_unix(lightdm:session): session opened for user xubuntu by (uid=0)
+Dec 12 18:57:14 xubuntu systemd-logind[3997]: New session c5 of user xubuntu.
+Dec 12 18:57:16 xubuntu gnome-keyring-daemon[9724]: The SSH agent was already initialized
+Dec 12 18:57:16 xubuntu gnome-keyring-daemon[9724]: The Secret Service was already initialized
+Dec 12 18:57:16 xubuntu gnome-keyring-daemon[9724]: The PKCS#11 component was already initialized
+Dec 12 18:57:17 xubuntu polkitd(authority=local): Registered Authentication Agent for unix-session:c5 (system bus name :1.137 [/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1], object path /org/gnome/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Dec 12 18:57:42 xubuntu dbus[3950]: [system] Failed to activate service 'org.bluez': timed out
+Dec 12 18:58:07 xubuntu dbus[3950]: [system] Failed to activate service 'org.bluez': timed out
+Dec 12 18:58:26 xubuntu sudo:  xubuntu : TTY=pts/8 ; PWD=/home/xubuntu ; USER=root ; COMMAND=sudoedit /etc/firefox/syspref.js
+Dec 12 18:58:26 xubuntu sudoedit: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec 12 18:58:46 xubuntu sudoedit: pam_unix(sudo:session): session closed for user root
+Dec 12 18:59:09 xubuntu systemd-logind[3997]: Removed session c4.
+Dec 12 18:59:09 xubuntu systemd: pam_unix(systemd-user:session): session closed for user lightdm
+Dec 12 19:02:30 xubuntu sudo:  xubuntu : TTY=pts/8 ; PWD=/home/xubuntu ; USER=root ; COMMAND=sudoedit /etc/puppet/modules/sampanmoduli/manifests/init.pp
+Dec 12 19:02:30 xubuntu sudoedit: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec 12 19:04:34 xubuntu sudoedit: pam_unix(sudo:session): session closed for user root
+Dec 12 19:04:58 xubuntu sudo:  xubuntu : TTY=pts/8 ; PWD=/home/xubuntu ; USER=root ; COMMAND=sudoedit /etc/firefox/syspref.js
+Dec 12 19:04:58 xubuntu sudoedit: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec 12 19:05:04 xubuntu sudoedit: pam_unix(sudo:session): session closed for user root
+Dec 12 19:05:18 xubuntu sudo:  xubuntu : TTY=pts/8 ; PWD=/home/xubuntu ; USER=root ; COMMAND=sudoedit /etc/puppet/modules/sampanmoduli/templates/syspref.js
+Dec 12 19:05:18 xubuntu sudoedit: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec 12 19:15:10 xubuntu sudoedit: pam_unix(sudo:session): session closed for user root
+Dec 12 19:15:46 xubuntu sudo:  xubuntu : TTY=pts/8 ; PWD=/home/xubuntu ; USER=root ; COMMAND=sudoedit /etc/puppet/modules/sampanmoduli/manifests/init.pp
+Dec 12 19:15:46 xubuntu sudoedit: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec 12 19:15:57 xubuntu sudoedit: pam_unix(sudo:session): session closed for user root
+Dec 12 19:16:22 xubuntu sudo:  xubuntu : TTY=pts/8 ; PWD=/home/xubuntu ; USER=root ; COMMAND=/usr/bin/puppet apply -e class {"sampanmoduli":}
+Dec 12 19:16:22 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec 12 19:16:23 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 19:16:28 xubuntu sudo:  xubuntu : TTY=pts/8 ; PWD=/home/xubuntu ; USER=root ; COMMAND=sudoedit /etc/puppet/modules/sampanmoduli/manifests/init.pp
+Dec 12 19:16:28 xubuntu sudoedit: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec 12 19:16:35 xubuntu sudoedit: pam_unix(sudo:session): session closed for user root
+Dec 12 19:16:37 xubuntu sudo:  xubuntu : TTY=pts/8 ; PWD=/home/xubuntu ; USER=root ; COMMAND=/usr/bin/puppet apply -e class {"sampanmoduli":}
+Dec 12 19:16:37 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec 12 19:16:38 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 19:17:01 xubuntu CRON[10708]: pam_unix(cron:session): session opened for user root by (uid=0)
+Dec 12 19:17:01 xubuntu CRON[10708]: pam_unix(cron:session): session closed for user root
+Dec 12 19:19:07 xubuntu sudo:  xubuntu : TTY=pts/8 ; PWD=/home/xubuntu ; USER=root ; COMMAND=/usr/bin/apt-get -y install git
+Dec 12 19:19:07 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+Dec 12 19:19:10 xubuntu sudo: pam_unix(sudo:session): session closed for user root
+Dec 12 19:24:06 xubuntu sudo:  xubuntu : TTY=pts/8 ; PWD=/home/xubuntu ; USER=root ; COMMAND=/usr/bin/tail --lines=100 /home/xubuntu/.bash_history /var/log/auth.log /var/log/apache2/*.log /var/log/syslog /var/log/installer/syslog /proc/uptime /etc/lsb-release
+Dec 12 19:24:06 xubuntu sudo: pam_unix(sudo:session): session opened for user root by xubuntu(uid=0)
+
+==> /var/log/syslog <==
+Dec 12 18:53:33 xubuntu pulseaudio[8603]: [pulseaudio] authkey.c: Failed to load authentication key '/var/lib/lightdm/.config/pulse/cookie': No such file or directory
+Dec 12 18:53:33 xubuntu pulseaudio[8603]: [pulseaudio] authkey.c: Failed to open cookie file '/var/lib/lightdm/.pulse-cookie': No such file or directory
+Dec 12 18:53:33 xubuntu pulseaudio[8603]: [pulseaudio] authkey.c: Failed to load authentication key '/var/lib/lightdm/.pulse-cookie': No such file or directory
+Dec 12 18:53:39 xubuntu puppet-agent[6660]: Could not request certificate: Failed to open TCP connection to puppet:8140 (getaddrinfo: No address associated with hostname)
+Dec 12 18:53:40 xubuntu lightdm[4133]: (lightdm:4133): GLib-GIO-CRITICAL **: g_dbus_connection_call_sync_internal: assertion 'object_path != NULL && g_variant_is_object_path (object_path)' failed
+Dec 12 18:53:40 xubuntu lightdm[4133]: (lightdm:4133): GLib-GIO-CRITICAL **: g_dbus_connection_call_sync_internal: assertion 'object_path != NULL && g_variant_is_object_path (object_path)' failed
+Dec 12 18:53:40 xubuntu org.gtk.vfs.Daemon[8550]: A connection to the bus can't be made
+Dec 12 18:53:40 xubuntu systemd[1]: Started Session c3 of user xubuntu.
+Dec 12 18:53:42 xubuntu org.a11y.Bus[8703]: ** (process:8812): WARNING **: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+Dec 12 18:53:42 xubuntu org.a11y.Bus[8703]: Activating service name='org.a11y.atspi.Registry'
+Dec 12 18:53:42 xubuntu org.a11y.Bus[8703]: Successfully activated service 'org.a11y.atspi.Registry'
+Dec 12 18:53:42 xubuntu org.a11y.atspi.Registry[8821]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Dec 12 18:53:42 xubuntu systemd[1]: Started CUPS Scheduler.
+Dec 12 18:53:42 xubuntu org.gtk.vfs.AfcVolumeMonitor[8703]: Volume monitor alive
+Dec 12 18:53:42 xubuntu dbus[3950]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+Dec 12 18:54:07 xubuntu dbus[3950]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+Dec 12 18:54:07 xubuntu dbus[3950]: [system] Activating service name='org.blueman.Mechanism' (using servicehelper)
+Dec 12 18:54:07 xubuntu obexd[9193]: OBEX daemon 5.37
+Dec 12 18:54:07 xubuntu org.blueman.Mechanism[3950]: Failed to connect to Mir: Failed to connect to server socket: No such file or directory
+Dec 12 18:54:07 xubuntu org.blueman.Mechanism[3950]: Unable to init server: Could not connect: Connection refused
+Dec 12 18:54:07 xubuntu org.blueman.Mechanism[3950]: Failed to connect to Mir: Failed to connect to server socket: No such file or directory
+Dec 12 18:54:07 xubuntu org.blueman.Mechanism[3950]: Unable to init server: Could not connect: Connection refused
+Dec 12 18:54:07 xubuntu blueman-mechanism: Starting blueman-mechanism
+Dec 12 18:54:07 xubuntu dbus[3950]: [system] Successfully activated service 'org.blueman.Mechanism'
+Dec 12 18:54:07 xubuntu org.blueman.Mechanism[3950]: (blueman-mechanism:9191): Gtk-CRITICAL **: gtk_icon_theme_get_for_screen: assertion 'GDK_IS_SCREEN (screen)' failed
+Dec 12 18:54:07 xubuntu blueman-mechanism: loading Network
+Dec 12 18:54:07 xubuntu blueman-mechanism: loading Ppp
+Dec 12 18:54:07 xubuntu blueman-mechanism: loading Rfcomm
+Dec 12 18:54:07 xubuntu blueman-mechanism: loading RfKill
+Dec 12 18:54:37 xubuntu blueman-mechanism: Exiting
+Dec 12 18:55:29 xubuntu systemd[1]: Stopping User Manager for UID 108...
+Dec 12 18:55:29 xubuntu systemd[8536]: Stopped target Default.
+Dec 12 18:55:29 xubuntu systemd[8536]: Stopped target Basic System.
+Dec 12 18:55:29 xubuntu systemd[8536]: Stopped target Sockets.
+Dec 12 18:55:29 xubuntu systemd[8536]: Stopped target Paths.
+Dec 12 18:55:29 xubuntu systemd[8536]: Stopped target Timers.
+Dec 12 18:55:29 xubuntu systemd[8536]: Reached target Shutdown.
+Dec 12 18:55:29 xubuntu systemd[8536]: Starting Exit the Session...
+Dec 12 18:55:29 xubuntu systemd[8536]: Received SIGRTMIN+24 from PID 9258 (kill).
+Dec 12 18:55:29 xubuntu systemd[1]: Stopped User Manager for UID 108.
+Dec 12 18:55:29 xubuntu systemd[1]: Removed slice User Slice of lightdm.
+Dec 12 18:55:39 xubuntu puppet-agent[6660]: Could not request certificate: Failed to open TCP connection to puppet:8140 (getaddrinfo: No address associated with hostname)
+Dec 12 18:57:09 xubuntu obexd[9193]: Terminating
+Dec 12 18:57:09 xubuntu org.a11y.Bus[8703]: XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+Dec 12 18:57:09 xubuntu org.a11y.Bus[8703]:       after 6 requests (6 known processed) with 0 events remaining.
+Dec 12 18:57:10 xubuntu systemd[1]: Created slice User Slice of lightdm.
+Dec 12 18:57:10 xubuntu systemd[1]: Starting User Manager for UID 108...
+Dec 12 18:57:10 xubuntu systemd[1]: Started Session c4 of user lightdm.
+Dec 12 18:57:10 xubuntu systemd[9561]: Reached target Timers.
+Dec 12 18:57:10 xubuntu systemd[9561]: Reached target Sockets.
+Dec 12 18:57:10 xubuntu systemd[9561]: Reached target Paths.
+Dec 12 18:57:10 xubuntu systemd[9561]: Reached target Basic System.
+Dec 12 18:57:10 xubuntu systemd[9561]: Reached target Default.
+Dec 12 18:57:10 xubuntu systemd[9561]: Startup finished in 7ms.
+Dec 12 18:57:10 xubuntu systemd[1]: Started User Manager for UID 108.
+Dec 12 18:57:14 xubuntu systemd[1]: Started Session c5 of user xubuntu.
+Dec 12 18:57:17 xubuntu systemd[1]: Started CUPS Scheduler.
+Dec 12 18:57:17 xubuntu org.a11y.Bus[9803]: Activating service name='org.a11y.atspi.Registry'
+Dec 12 18:57:17 xubuntu org.a11y.Bus[9803]: ** (process:9965): WARNING **: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+Dec 12 18:57:17 xubuntu org.a11y.Bus[9803]: Successfully activated service 'org.a11y.atspi.Registry'
+Dec 12 18:57:17 xubuntu org.a11y.atspi.Registry[9973]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Dec 12 18:57:17 xubuntu org.gtk.vfs.AfcVolumeMonitor[9803]: Volume monitor alive
+Dec 12 18:57:17 xubuntu dbus[3950]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+Dec 12 18:57:39 xubuntu puppet-agent[6660]: Could not request certificate: Failed to open TCP connection to puppet:8140 (getaddrinfo: No address associated with hostname)
+Dec 12 18:57:42 xubuntu dbus[3950]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+Dec 12 18:57:42 xubuntu obexd[10162]: OBEX daemon 5.37
+Dec 12 18:57:42 xubuntu dbus[3950]: [system] Activating service name='org.blueman.Mechanism' (using servicehelper)
+Dec 12 18:57:42 xubuntu org.blueman.Mechanism[3950]: Failed to connect to Mir: Failed to connect to server socket: No such file or directory
+Dec 12 18:57:42 xubuntu org.blueman.Mechanism[3950]: Unable to init server: Could not connect: Connection refused
+Dec 12 18:57:42 xubuntu org.blueman.Mechanism[3950]: Failed to connect to Mir: Failed to connect to server socket: No such file or directory
+Dec 12 18:57:42 xubuntu org.blueman.Mechanism[3950]: Unable to init server: Could not connect: Connection refused
+Dec 12 18:57:42 xubuntu blueman-mechanism: Starting blueman-mechanism
+Dec 12 18:57:42 xubuntu dbus[3950]: [system] Successfully activated service 'org.blueman.Mechanism'
+Dec 12 18:57:42 xubuntu org.blueman.Mechanism[3950]: (blueman-mechanism:10165): Gtk-CRITICAL **: gtk_icon_theme_get_for_screen: assertion 'GDK_IS_SCREEN (screen)' failed
+Dec 12 18:57:42 xubuntu blueman-mechanism: loading Network
+Dec 12 18:57:42 xubuntu blueman-mechanism: loading Ppp
+Dec 12 18:57:42 xubuntu blueman-mechanism: loading Rfcomm
+Dec 12 18:57:42 xubuntu blueman-mechanism: loading RfKill
+Dec 12 18:58:12 xubuntu blueman-mechanism: Exiting
+Dec 12 18:59:09 xubuntu systemd[9561]: Stopped target Default.
+Dec 12 18:59:09 xubuntu systemd[9561]: Stopped target Basic System.
+Dec 12 18:59:09 xubuntu systemd[9561]: Stopped target Timers.
+Dec 12 18:59:09 xubuntu systemd[9561]: Stopped target Paths.
+Dec 12 18:59:09 xubuntu systemd[9561]: Reached target Shutdown.
+Dec 12 18:59:09 xubuntu systemd[9561]: Stopped target Sockets.
+Dec 12 18:59:09 xubuntu systemd[1]: Stopping User Manager for UID 108...
+Dec 12 18:59:09 xubuntu systemd[9561]: Starting Exit the Session...
+Dec 12 18:59:09 xubuntu systemd[9561]: Received SIGRTMIN+24 from PID 10216 (kill).
+Dec 12 18:59:09 xubuntu systemd[1]: Stopped User Manager for UID 108.
+Dec 12 18:59:09 xubuntu systemd[1]: Removed slice User Slice of lightdm.
+Dec 12 18:59:39 xubuntu puppet-agent[6660]: Could not request certificate: Failed to open TCP connection to puppet:8140 (getaddrinfo: No address associated with hostname)
+Dec 12 19:01:39 xubuntu puppet-agent[6660]: Could not request certificate: Failed to open TCP connection to puppet:8140 (getaddrinfo: No address associated with hostname)
+Dec 12 19:03:39 xubuntu puppet-agent[6660]: Could not request certificate: Failed to open TCP connection to puppet:8140 (getaddrinfo: No address associated with hostname)
+Dec 12 19:05:39 xubuntu puppet-agent[6660]: Could not request certificate: Failed to open TCP connection to puppet:8140 (getaddrinfo: No address associated with hostname)
+Dec 12 19:13:39 xubuntu puppet-agent[6660]: message repeated 4 times: [ Could not request certificate: Failed to open TCP connection to puppet:8140 (getaddrinfo: No address associated with hostname)]
+Dec 12 19:15:39 xubuntu puppet-agent[6660]: Could not request certificate: Failed to open TCP connection to puppet:8140 (getaddrinfo: No address associated with hostname)
+Dec 12 19:17:01 xubuntu CRON[10709]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Dec 12 19:17:39 xubuntu puppet-agent[6660]: Could not request certificate: Failed to open TCP connection to puppet:8140 (getaddrinfo: No address associated with hostname)
+Dec 12 19:19:39 xubuntu puppet-agent[6660]: Could not request certificate: Failed to open TCP connection to puppet:8140 (getaddrinfo: No address associated with hostname)
+Dec 12 19:23:39 xubuntu puppet-agent[6660]: message repeated 2 times: [ Could not request certificate: Failed to open TCP connection to puppet:8140 (getaddrinfo: No address associated with hostname)]
+
+==> /proc/uptime <==
+5166.98 19974.66
+
+==> /etc/lsb-release <==
+DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=16.04
+DISTRIB_CODENAME=xenial
+DISTRIB_DESCRIPTION="Ubuntu 16.04.1 LTS"
